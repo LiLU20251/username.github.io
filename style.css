@@ -382,3 +382,22 @@ body {
     left: -15px;
     text-shadow: 0 0 5px #00ffff;
 }
+/* Стили для скроллбара */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #00ffff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #00ccff;
+}
