@@ -228,18 +228,26 @@ body {
 
 .modal-content {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    margin: 5% auto;
+    margin: 2% auto;
     padding: 30px;
     border: 2px solid #00ffff;
     border-radius: 15px;
-    width: 100%;
+    width: 90%;
     max-width: 800px;
-    overflow-y: auto; /* ← Добавил прокрутку */
+    height: 85vh;           /* ← ФИКСИРОВАННАЯ высота */
+    overflow-y: auto;       /* ← Прокрутка по вертикали */
     position: relative;
     box-shadow: 
         0 0 30px #00ffff,
         inset 0 0 20px rgba(0, 255, 255, 0.1);
     animation: modalSlide 0.3s ease-out;
+}
+
+/* Контейнер для контента внутри модалки */
+#modal-body {
+    max-height: calc(85vh - 100px); /* ← Высота минус паддинги */
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
 @keyframes modalSlide {
@@ -382,22 +390,21 @@ body {
     left: -15px;
     text-shadow: 0 0 5px #00ffff;
 }
-/* Стили для скроллбара */
-.modal-content::-webkit-scrollbar {
-    width: 8px;
+/* Стили для скроллбара модалки */
+#modal-body::-webkit-scrollbar {
+    width: 6px;
 }
 
-.modal-content::-webkit-scrollbar-track {
+#modal-body::-webkit-scrollbar-track {
     background: rgba(0, 255, 255, 0.1);
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
-.modal-content::-webkit-scrollbar-thumb {
-    background: #00ffff;
-    border-radius: 4px;
-    box-shadow: 0 0 10px #00ffff;
+#modal-body::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00ffff, #0080ff);
+    border-radius: 3px;
 }
 
-.modal-content::-webkit-scrollbar-thumb:hover {
-    background: #00ccff;
+#modal-body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #00ccff, #0066ff);
 }
