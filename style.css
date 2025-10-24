@@ -351,3 +351,33 @@ body {
     margin: 0 auto 20px auto;
     display: block;
 }
+/* Подсветка активной кнопки навигации */
+.nav-btn.active {
+    background: #00ffff !important;
+    color: #0a0a0a !important;
+    box-shadow: 
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        inset 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+
+/* Улучшил внешний вид списков в модалках */
+#modal-body ul {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+#modal-body li {
+    margin-bottom: 8px;
+    color: #88ffff;
+    position: relative;
+}
+
+#modal-body li:before {
+    content: "▸";
+    color: #00ffff;
+    position: absolute;
+    left: -15px;
+    text-shadow: 0 0 5px #00ffff;
+}
