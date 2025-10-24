@@ -324,7 +324,7 @@ body {
 
 /* Стили для картинки в модальном окне */
 .modal-image {
-    width: 400px;
+    width: 500px;
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
