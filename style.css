@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    background: #1a1a1a;
+    color: white;
+    margin: 40px;
+}
+
+.download-item {
+    background: #2a2a2a;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.download-btn {
+    background: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
