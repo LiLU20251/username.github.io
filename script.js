@@ -46,9 +46,9 @@ const descriptions = {
         <a href="http://194.79.46.110:1080/mrx/fortnite.exe" class="download-btn modal-download-btn">СКАЧАТЬ</a>
     `,
     'gtav-desc': `
-        <img src="3.jpg" alt="GTA V Trainer" class="modal-image">
-        <h2>GTA V Trainer</h2>
-        <p><strong>Описание:</strong> Полнофункциональный трейнер для Grand Theft Auto V с множеством опций для изменения игрового процесса.</p>
+        <img src="dying-light-the-beast.jpg" alt="Dying Light: The Beast" class="modal-image">
+        <h2>Dying Light: The Beast</h2>
+        <p><strong>Описание:</strong> Полнофункциональный трейнер для Dying Light: The Beast с множеством опций для изменения игрового процесса.</p>
         <p><strong>Возможности:</strong></p>
         <ul>
             <li>Бесконечные деньги</li>
