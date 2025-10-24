@@ -99,8 +99,7 @@ const descriptions = {
 </ul>
 
 <a href="http://194.79.46.110:1080/mrx/dying-light.exe" class="download-btn modal-download-btn">СКАЧАТЬ</a>
-        <a href="http://194.79.46.110:1080/mrx/gtav.exe" class="download-btn modal-download-btn">СКАЧАТЬ</a>
-    `,
+            `,
     'minecraft-desc': `
         <img src="4.jpg" alt="Minecraft Mod" class="modal-image">
         <h2>Minecraft Mod</h2>
