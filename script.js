@@ -47,7 +47,7 @@ const descriptions = {
     `,
     'gtav-desc': `
         <img src="dying-light-the-beast.jpg" alt="Dying Light: The Beast" class="modal-image">
-<h2>Dying Light: The Beast</h2>
+<h2>Dying Light: The Beast Трейнер (+28) [1.2.3]</h2>
 <p><strong>Описание:</strong> Полнофункциональный трейнер для Dying Light: The Beast с множеством опций для изменения игрового процесса.</p>
 
 <p><strong>Функции трейнера:</strong></p>
