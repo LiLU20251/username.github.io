@@ -232,8 +232,9 @@ body {
     padding: 30px;
     border: 2px solid #00ffff;
     border-radius: 15px;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
+    overflow-y: auto; /* ← Добавил прокрутку */
     position: relative;
     box-shadow: 
         0 0 30px #00ffff,
