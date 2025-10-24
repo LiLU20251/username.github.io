@@ -23,19 +23,76 @@
         <section id="cheats" class="section active">
             <h2>Популярные читы</h2>
             <div class="download-grid">
+                <!-- 10 карточек для читов -->
                 <div class="download-card" onclick="showDescription('xeno-desc')">
                     <div class="card-bg" style="background-image: url('1.jpg')"></div>
                     <h3>Xeno Executor</h3>
                     <p>Мощный инструмент для Roblox</p>
-                    <div class="download-count">📥 2,458 скачиваний</div>
-                    <a href="http://194.79.46.110:1080/mrx/xeno.exe" class="download-btn" onclick="trackDownload('xeno')">СКАЧАТЬ</a>
+                    <div class="download-count" id="count-xeno">📥 Загрузка...</div>
+                    <a href="download.php?file=xeno" class="download-btn">СКАЧАТЬ</a>
                 </div>
                 <div class="download-card" onclick="showDescription('fortnite-desc')">
                     <div class="card-bg" style="background-image: url('2.jpg')"></div>
                     <h3>Fortnite Hack</h3>
                     <p>Читы для Fortnite</p>
-                    <div class="download-count">📥 1,892 скачиваний</div>
-                    <a href="http://194.79.46.110:1080/mrx/fortnite.exe" class="download-btn" onclick="trackDownload('fortnite')">СКАЧАТЬ</a>
+                    <div class="download-count" id="count-fortnite">📥 Загрузка...</div>
+                    <a href="download.php?file=fortnite" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('valorant-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Valorant Cheat</h3>
+                    <p>AIM и ESP для Valorant</p>
+                    <div class="download-count" id="count-valorant">📥 Загрузка...</div>
+                    <a href="download.php?file=valorant" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('warzone-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Warzone Hack</h3>
+                    <p>Читы для Call of Duty</p>
+                    <div class="download-count" id="count-warzone">📥 Загрузка...</div>
+                    <a href="download.php?file=warzone" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('apex-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>Apex Legends</h3>
+                    <p>Читы для Apex Legends</p>
+                    <div class="download-count" id="count-apex">📥 Загрузка...</div>
+                    <a href="download.php?file=apex" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('csgo-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>CS:GO Hack</h3>
+                    <p>Wallhack и AIM для CS:GO</p>
+                    <div class="download-count" id="count-csgo">📥 Загрузка...</div>
+                    <a href="download.php?file=csgo" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('roblox-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Roblox Exploit</h3>
+                    <p>Эксплойты для Roblox</p>
+                    <div class="download-count" id="count-roblox">📥 Загрузка...</div>
+                    <a href="download.php?file=roblox" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('minecraft-cheat-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Minecraft Cheat</h3>
+                    <p>Читы для Minecraft</p>
+                    <div class="download-count" id="count-minecraft-cheat">📥 Загрузка...</div>
+                    <a href="download.php?file=minecraft-cheat" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('rainbow-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>Rainbow Six</h3>
+                    <p>Читы для R6 Siege</p>
+                    <div class="download-count" id="count-rainbow">📥 Загрузка...</div>
+                    <a href="download.php?file=rainbow" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('overwatch-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>Overwatch Hack</h3>
+                    <p>Читы для Overwatch 2</p>
+                    <div class="download-count" id="count-overwatch">📥 Загрузка...</div>
+                    <a href="download.php?file=overwatch" class="download-btn">СКАЧАТЬ</a>
                 </div>
             </div>
         </section>
@@ -44,12 +101,76 @@
         <section id="trainers" class="section">
             <h2>Игровые трейнеры</h2>
             <div class="download-grid">
+                <!-- 10 карточек для трейнеров -->
                 <div class="download-card" onclick="showDescription('gtav-desc')">
                     <div class="card-bg" style="background-image: url('3.jpg')"></div>
                     <h3>GTA V Trainer</h3>
                     <p>Трейнер для Grand Theft Auto V</p>
-                    <div class="download-count">📥 3,127 скачиваний</div>
-                    <a href="http://194.79.46.110:1080/mrx/gtav.exe" class="download-btn" onclick="trackDownload('gtav')">СКАЧАТЬ</a>
+                    <div class="download-count" id="count-gtav">📥 Загрузка...</div>
+                    <a href="download.php?file=gtav" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('witcher-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Witcher 3 Trainer</h3>
+                    <p>Трейнер для Ведьмак 3</p>
+                    <div class="download-count" id="count-witcher">📥 Загрузка...</div>
+                    <a href="download.php?file=witcher" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('cyberpunk-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>Cyberpunk 2077</h3>
+                    <p>Трейнер для Cyberpunk</p>
+                    <div class="download-count" id="count-cyberpunk">📥 Загрузка...</div>
+                    <a href="download.php?file=cyberpunk" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('rdr2-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>Red Dead 2</h3>
+                    <p>Трейнер для RDR2</p>
+                    <div class="download-count" id="count-rdr2">📥 Загрузка...</div>
+                    <a href="download.php?file=rdr2" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('elden-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Elden Ring</h3>
+                    <p>Трейнер для Elden Ring</p>
+                    <div class="download-count" id="count-elden">📥 Загрузка...</div>
+                    <a href="download.php?file=elden" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('skyrim-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Skyrim SE</h3>
+                    <p>Трейнер для Skyrim</p>
+                    <div class="download-count" id="count-skyrim">📥 Загрузка...</div>
+                    <a href="download.php?file=skyrim" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('fallout-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>Fallout 4</h3>
+                    <p>Трейнер для Fallout 4</p>
+                    <div class="download-count" id="count-fallout">📥 Загрузка...</div>
+                    <a href="download.php?file=fallout" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('acvalhalla-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>AC Valhalla</h3>
+                    <p>Трейнер для Assassin's Creed</p>
+                    <div class="download-count" id="count-acvalhalla">📥 Загрузка...</div>
+                    <a href="download.php?file=acvalhalla" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('dragonage-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Dragon Age</h3>
+                    <p>Трейнер для Dragon Age</p>
+                    <div class="download-count" id="count-dragonage">📥 Загрузка...</div>
+                    <a href="download.php?file=dragonage" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('massEffect-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Mass Effect</h3>
+                    <p>Трейнер для Mass Effect</p>
+                    <div class="download-count" id="count-massEffect">📥 Загрузка...</div>
+                    <a href="download.php?file=massEffect" class="download-btn">СКАЧАТЬ</a>
                 </div>
             </div>
         </section>
@@ -58,12 +179,76 @@
         <section id="games" class="section">
             <h2>Бесплатные игры</h2>
             <div class="download-grid">
+                <!-- 10 карточек для игр -->
                 <div class="download-card" onclick="showDescription('minecraft-desc')">
-                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
                     <h3>Minecraft Mod</h3>
                     <p>Мод пак для Minecraft</p>
-                    <div class="download-count">📥 4,562 скачиваний</div>
-                    <a href="http://194.79.46.110:1080/mrx/minecraft.exe" class="download-btn" onclick="trackDownload('minecraft')">СКАЧАТЬ</a>
+                    <div class="download-count" id="count-minecraft">📥 Загрузка...</div>
+                    <a href="download.php?file=minecraft" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('amongus-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>Among Us Mod</h3>
+                    <p>Моды для Among Us</p>
+                    <div class="download-count" id="count-amongus">📥 Загрузка...</div>
+                    <a href="download.php?file=amongus" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('terraria-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Terraria Mod</h3>
+                    <p>Моды для Terraria</p>
+                    <div class="download-count" id="count-terraria">📥 Загрузка...</div>
+                    <a href="download.php?file=terraria" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('stardew-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Stardew Valley</h3>
+                    <p>Моды для Stardew Valley</p>
+                    <div class="download-count" id="count-stardew">📥 Загрузка...</div>
+                    <a href="download.php?file=stardew" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('gtaSa-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>GTA San Andreas</h3>
+                    <p>Модифицированная версия</p>
+                    <div class="download-count" id="count-gtaSa">📥 Загрузка...</div>
+                    <a href="download.php?file=gtaSa" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('gtaVc-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>GTA Vice City</h3>
+                    <p>Модифицированная версия</p>
+                    <div class="download-count" id="count-gtaVc">📥 Загрузка...</div>
+                    <a href="download.php?file=gtaVc" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('needForSpeed-desc')">
+                    <div class="card-bg" style="background-image: url('3.jpg')"></div>
+                    <h3>Need for Speed</h3>
+                    <p>Моды для NFS</p>
+                    <div class="download-count" id="count-needForSpeed">📥 Загрузка...</div>
+                    <a href="download.php?file=needForSpeed" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('sims4-desc')">
+                    <div class="card-bg" style="background-image: url('4.jpg')"></div>
+                    <h3>Sims 4 Mod</h3>
+                    <p>Моды для Sims 4</p>
+                    <div class="download-count" id="count-sims4">📥 Загрузка...</div>
+                    <a href="download.php?file=sims4" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('fifa-desc')">
+                    <div class="card-bg" style="background-image: url('1.jpg')"></div>
+                    <h3>FIFA Mod</h3>
+                    <p>Моды для FIFA</p>
+                    <div class="download-count" id="count-fifa">📥 Загрузка...</div>
+                    <a href="download.php?file=fifa" class="download-btn">СКАЧАТЬ</a>
+                </div>
+                <div class="download-card" onclick="showDescription('codmw-desc')">
+                    <div class="card-bg" style="background-image: url('2.jpg')"></div>
+                    <h3>Call of Duty MW</h3>
+                    <p>Моды для COD MW</p>
+                    <div class="download-count" id="count-codmw">📥 Загрузка...</div>
+                    <a href="download.php?file=codmw" class="download-btn">СКАЧАТЬ</a>
                 </div>
             </div>
         </section>
